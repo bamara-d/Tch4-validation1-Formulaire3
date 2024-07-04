@@ -1,0 +1,158 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: verdana, sans-serif;
+  display: flex;
+  height: 99.6vh;
+}
+
+.container{
+  display: flex;
+  width: 100%;
+}
+
+.box-left {
+  width: 65%;
+}
+
+.box-right{
+  display: flex;
+  background-color: rgba(34, 25, 25, 255);
+  color: #fff;
+  width: 35%;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  padding-left: 4rem;
+}
+
+legend{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dv1{
+  display: flex;
+  flex-direction: column;
+}
+
+form .lab1{
+  font-size: 13px;
+  font-weight: bold;
+  color: burlywood;
+  margin-bottom: -25px;
+}
+
+form .lab2{
+  font-size: 15px;
+}
+
+input, select{
+  margin-top: 30px;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.box-right .dv1{
+  margin-top: 25px;
+}
+
+.dv5{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+.parent{
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  margin-top: 15px;
+}
+
+.kids{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+  font-size: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%
+}
+
+.person{
+  display: flex;
+  gap: 1px;
+  align-items: center;
+  background-color: rgba(209, 169, 126, 255);
+  font-weight: bold;
+  padding: 3px;
+  border-radius: 50px 
+}
+
+.person .kids{
+  background-color: rgba(34, 25, 25, 255);
+  color: #fff;
+}
+
+span{
+ background-color: rgba(209, 169, 126, 255);
+ color: #000;
+ font-size: 13px;
+ padding-left: 5px;
+ padding-right: 5px;
+}
+
+.if1, .if2, .is1, .is2, #select3{
+  width: 79%;
+  background-color: rgba(34, 25, 25, 255);
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.bt{
+  width: 110px;
+  height: 45px;
+  border: none;
+  margin-top: 25px;
+  background-color: rgba(209,169,126,255);
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.box-right p{
+  margin-top: 20px;
+  text-align: left;
+  font-size: 15px;
+  color: #dcb285;
+}
+
+@media (max-width: 910px){
+  .box-right{
+    width: 100%;
+  }
+  .box-left{
+    display: none;
+  }
+  
+}

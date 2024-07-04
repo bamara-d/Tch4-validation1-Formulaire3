@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form3.css" />
+    <title>Tâche de validation</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box-left">
+        <img src="diner.jpg" alt="Une photo d'un menu de dîner" />
+      </div>
+      <div class="box-right">
+        <form method="post" action="form3.php">
+          <legend>Booking place for your dinner!</legend>
+          <div class="dv1">
+            <label class="lab1" for="name">Your name</label>
+            <input
+              class="if1"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Amara DIAKITE"
+            />
+          </div>
+          <div class="dv2">
+            <input
+              class="if2"
+              type="tel"
+              name="tel"
+              id="tel"
+              placeholder="Your phone number"
+            />
+          </div>
+          <div class="dv3">
+            <select class="is1" name="" id="" aria-placeholder="Time">
+              <option value="">Time</option>
+              <option value="">19h00</option>
+              <option value="">20h00</option>
+              <option value="">21h00</option>
+            </select>
+          </div>
+          <div class="dv4">
+            <select class="is2" name="" id="select2" aria-placeholder="Food">
+              <option value="">Food</option>
+              <option value="">Poulet rôti</option>
+              <option value="">Filet de boeuf</option>
+              <option value="">Poisson grillé</option>
+            </select>
+          </div>
+          <div class="dv5">
+            <label class="lab2" for="">Select Your Dinning Space</label>
+            <div class="parent">
+              <div class="kids">2</div>
+              <div class="person">
+               <div class="kids">4</div>
+               <span>Person</span>
+              </div>
+              <div class="kids">6</div>
+              <div class="kids">8</div>
+              <div class="kids">10</div>
+            </div>
+          </div>
+          <button class="bt" type="submit">Book now</button>
+          <p>Verify your booking into your phone</p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
